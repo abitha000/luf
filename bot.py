@@ -336,7 +336,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 [
                     [
                         InlineKeyboardButton("Source Codes of Bot",
-                                             url="https://youtu.be/dQw4w9WgXcQ?si=3aO6yfwIqyuhSmOS")
+                                             url="https://youtu.be/dQw4w9WgXc?si3aO6yfwIqyuhSmOS")
                     ],
                     [
                         InlineKeyboardButton("Go Home", callback_data="gotohome"),
@@ -354,8 +354,8 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Updates Channel", url="https://t.me/+bghu_g--vIE4YzI1"),
-                         InlineKeyboardButton("Support Group", url="https://t.me/+-CaYhSPW5VwzNjM1"),
+                        InlineKeyboardButton("Updates Channel", url="https://t.me/filmy_tube"),
+                         InlineKeyboardButton("Support Group", url="https://t.me/universe_we_are"),
                     ],
                     [
                        
@@ -400,7 +400,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 return
             except Exception:
                 await cmd.message.edit(
-                    text="Something went Wrong. Contact my [𝙎𝙪𝙥𝙥𝙤𝙧𝙩 𝙂𝙧𝙤𝙪𝙥](https://t.me/+kG9L8w7YAZsyMjE1).",
+                    text="",
                     disable_web_page_preview=True
                 )
                 return
@@ -410,8 +410,8 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Updates Channel", url="https://t.me/+bghu_g--vIE4YzI1"),
-                        InlineKeyboardButton("Support Group", url="https://t.me/+-CaYhSPW5VwzNjM1")
+                        InlineKeyboardButton("Updates Channel", url="https://t.me/filmy_tube"),
+                        InlineKeyboardButton("Support Group", url="https://t.me/universe_we_are")
                     ],
                 ]
             )
