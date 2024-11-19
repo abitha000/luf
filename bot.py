@@ -71,8 +71,8 @@ async def start(bot: Client, cmd: Message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Updates Channel", url="https://t.me/filmy_tube"),
-                        InlineKeyboardButton("Support Group", url="https://t.me/universe_we_are"),
+                        InlineKeyboardButton("Updates Channel", url="https://t.me/Team_HDT"),
+                        InlineKeyboardButton("Support Group", url="https://t.me/Team_HDT"),
                     ],
                     [
             
@@ -336,7 +336,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 [
                     [
                         InlineKeyboardButton("Source Codes of Bot",
-                                             url="https://youtu.be/dQw4w9WgXc?si3aO6yfwIqyuhSmOS")
+                                             url="https://t.me/Team_HDT")
                     ],
                     [
                         InlineKeyboardButton("Go Home", callback_data="gotohome"),
@@ -354,8 +354,8 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Updates Channel", url="https://t.me/filmy_tube"),
-                         InlineKeyboardButton("Support Group", url="https://t.me/universe_we_are"),
+                        InlineKeyboardButton("Updates Channel", url="https://t.me/Team_HDT"),
+                         InlineKeyboardButton("Support Group", url="https://t.me/Team_HDT"),
                     ],
                     [
                        
@@ -378,7 +378,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 user = await bot.get_chat_member(channel_chat_id, cmd.message.chat.id)
                 if user.status == "kicked":
                     await cmd.message.edit(
-                        text="Sorry Sir, You are Banned to use me. Contact my [𝙎𝙪𝙥𝙥𝙤𝙧𝙩 𝙂𝙧𝙤𝙪𝙥](https://t.me/+kG9L8w7YAZsyMjE1).",
+                        text="Sorry Sir, You are Banned to use me. Contact my [𝙎𝙪𝙥𝙥𝙤𝙧𝙩 𝙂𝙧𝙤𝙪𝙥](https://t.me/Team_HDT).",
                         disable_web_page_preview=True
                     )
                     return
@@ -410,8 +410,8 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Updates Channel", url="https://t.me/filmy_tube"),
-                        InlineKeyboardButton("Support Group", url="https://t.me/universe_we_are")
+                        InlineKeyboardButton("Updates Channel", url="https://t.me/Team_HDT"),
+                        InlineKeyboardButton("Support Group", url="https://t.me/Team_HDT")
                     ],
                 ]
             )
